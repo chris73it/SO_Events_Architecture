@@ -9,5 +9,5 @@ The video that helped me clarify how the above really works is "The Power of Scr
 
 Compared to the code presented in "The Power of Scriptable Objects as Middle-Men", this version:
 1. better encapsulates the health property inside HealthManagerSO, and
-2. adds comments that helps clarify a few more subtle points,
+2. adds comments that helps clarify a few subtle points,
 otherwise, it is pretty much identical to the version of the code presented in the video.
