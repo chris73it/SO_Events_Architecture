@@ -9,10 +9,9 @@ public class GreenCollision : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("GreenCollision :: OnTriggerEnter other");
         if (other.CompareTag("Player"))
         {
-            Debug.Log("GreenCollision :: OnTriggerEnter Player");
+            //Debug.Log("GreenCollision :: IncreaseHealth");
             healthManagerSO.IncreaseHealth(healthIncreaseAmount);
         }
     }

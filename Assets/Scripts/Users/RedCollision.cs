@@ -9,10 +9,9 @@ public class RedCollision : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("RedCollision :: OnTriggerEnter other");
         if (other.CompareTag("Player"))
         {
-            Debug.Log("RedCollision :: OnTriggerEnter Player");
+            //Debug.Log("RedCollision :: DecreaseHealth");
             healthManagerSO.DecreaseHealth(healthDecreaseAmount);
         }
     }

@@ -24,7 +24,7 @@ public class UIManagerNew : MonoBehaviour
 
     float ConvertIntToFloatDecimal(int amount)
     {
-        return (float)amount / healthManagerSO.maxHealth;
+        return (float)amount / healthManagerSO.MaxHealth;
     }
 
     void OnEnable()

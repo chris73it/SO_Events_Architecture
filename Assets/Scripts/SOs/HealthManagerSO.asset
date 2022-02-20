@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: HealthManagerSO
   m_EditorClassIdentifier: 
   maxHealth: 100
+  heartbeatThreshold: 25
